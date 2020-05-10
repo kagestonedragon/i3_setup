@@ -67,7 +67,3 @@ exec $(get_session)
 
 # Start pulseaudio
 exec "pulseaudio --start"
-
-# Add custom keyboard layout
-exec "setxkbmap -layout us,ru"
-exec "setxkbmap -option 'grp:ctrl_alt_toggle'"
